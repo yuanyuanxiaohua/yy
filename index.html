@@ -1,0 +1,176 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset=":utf-8">
+		<link rel="shortcut icon" href="images5/logo.png" alt="金环日食">
+		<title>太阳的“阴晴圆缺”</title>
+		<link type="text/css" rel="stylesheet" href="css/style.css">
+		<link type="text/css" rel="stylesheet" href="css/fyfc.css">
+	<body>
+	<!--标题-->
+	<div id="ziti">
+	<div class="ly">
+        <img
+            src="images5/bg.jpg"
+            id="bg"
+        >
+        <img
+            src="images5/moon.png"
+            id="moon"
+        >
+        <img
+            src="images5/mountain.png"
+            id="mountain"
+        >
+        <img
+            src="images5/road.png"
+            id="road"
+            road
+			style="filter:chroma(color=#003c79c5)"
+        >
+		<h2 id="text">
+			<br>
+			<img src="images5/title.png">
+		</h2>
+
+	</div>
+    <script>
+        let bg = document.querySelector('#bg')
+        let moon = document.querySelector('#moon')
+        let mountain = document.querySelector('#mountain')
+        let road = document.querySelector('#road')
+        let text = document.querySelector('#text')
+
+        window.addEventListener('scroll', () => {
+            var value = window.scrollY;
+
+            bg.style.top = value * 0.5 + 'px';
+            moon.style.left = -value * 0.5 + 'px';
+            mountain.style.top = -value * 0.15 + 'px';
+            road.style.top = value * 0.15 + 'px';
+
+            text.style.top = value * 1 + 'px';
+
+
+        })
+    </script>
+
+	<section class="nnn">
+	<ul>
+		<li><a href=""></a></li>
+		<li><a href=""></a></li>
+		<li ><a href=""></a></li>
+	</ul>
+	</section>
+
+	<!--侧边栏-->
+		<section>
+			<div id="ziyuan">
+			<ul>
+				<li class="selected"><a href="index.html">本课程资源</a></li>
+				<li><a href="日食拓展.html">日食的拓展</a></li>
+				<li><a href="日食奇闻录.html">日食奇闻录</a></li>
+				<li><a href="https://nadc.china-vo.org/eclipse/" id="3guance"target="_blank">3D日食观测</a></li>
+			</ul>
+		</div>
+		</section>
+
+		<section class="wz">
+
+			<h2><strong>日食的形成</strong></h2>
+			<p>地球上某些地区的人们看到太阳表面全部或部分被遮掩的情况，这种现象就称为日食。</p>
+
+			<div class="sp">
+				<video width="590" height="350" controls autoplay="autoplay" muted >  
+					<source src="images5/日食形成.mp4" type="video/mp4">  
+					<object data="movie.mp4" width="590" height="350">    
+						<embed src="movie.swf" width="590" height="350"align="center">  
+					</object> 
+				</video>
+			</div>
+			<h5 align="center">《日食是怎样形成的？》</h5>
+
+			<h2><strong>日食的形成原理</strong></h2>
+				<p>日食现象是当月球绕地球转到太阳和地球中间时，如果<strong>太阳、月球、地球三者正好排成或接近一条直线</strong>，月球就会挡住了射到地球上的太阳光，月球身后的黑影正好落到地球上，这时就会发生日食现象。</p>
+				<p>日食出现的频次不定，一年中至多出现5次，且这5次一定都是日偏食；一年中至少有2次日食。</p>
+				
+				<div class="sp">
+					<video width="560" height="350" controls  muted >  
+						<source src="images5/日食原理.mp4" type="video/mp4">  
+						<object data="movie.mp4" width="560" height="350">    
+							<embed src="movie.swf" width="560" height="350"align="center">  
+						</object> 
+					</video>
+				</div>
+				<h5 align="center">《日食现象出现的本质是什么呢？》</h5>
+
+			<h2><strong>日食的分类</strong></h2>
+			<p align="center">日食现象共有四种，分别是日全食、日偏食、日环食和全环食。</p>
+			<h3>NO.1日全食</h3>
+			<p>日全食发生时月球的黑影宽度刚好可以遮住整个太阳，只有当月球位于<strong>近地点时</strong>，此现象才会发生，这时月球的<strong>黑影范围最大</strong>，能最大范围遮住太阳光。</p>
+			<div id="quan"align="center">
+				<img src="images5/全1.png">
+				<img src="images5/全2.png">
+				<img src="images5/全3.png">
+				<img src="images5/全4.png">
+			</div>
+
+			<h3>NO.2日偏食</h3>
+			<p>日偏食是指一部分太阳光被月球阴影所遮挡，但<strong>另一部分光线仍然可以到达地球</strong>，此时太阳和月球只有一部分发生了重合。</p>
+			<div id="pian"align="center">
+				<img src="images5/偏2.jpg"height="300">
+				<img src="images5/偏1.jpg"width="300"height="300">
+				<img src="images5/偏3.jpg"width="300"height="300">
+				<img src="images5/偏4.jpg"width="300"height="300">
+
+			</div>
+
+
+			<h3>NO.3日环食</h3>
+			<p>日环食出现在月球处于远地点时，这时月球<strong>黑影的直径最小</strong>，太阳光可以从月球黑影的边缘照射出，形成一个圆形的光环。</p>
+			<div id="ri"align="center">
+				<img src="images5/日1.png">
+				<img src="images5/日2.png">
+				<img src="images5/日4.png">
+			</div>
+
+
+			<h3>NO.4全环食</h3>
+			<p>环食发生在<strong>地球表面和月球本影最近的地方</strong>，当全环食发生的时候，随着月球、地球的相对运动，会先后出现环食、全食、环食。</p>
+			<p>全环食发生的概率非常小，20世纪共发生的228次日食中，只有6次全环食。</p>
+			<div class="guocheng" align="center">
+				<img src="images5/全5.png" >
+				</div>
+
+
+			<h2><strong>日食的观测</strong></h2>
+			<div class="guance">
+				<ul>
+					<li>可以佩戴专用日食眼镜，专用日食眼镜可以有效过滤紫外线和红外线等，它们也被称为“日全食眼镜”或“日食观测镜”。</li>
+					<li>可以运用小孔成像的原理，在一张白纸上穿一个整齐的圆形小孔，通过小孔在另外纸面或其他界面上的投影观测日全食。</li>
+					<li>可以将手指交叉组成小孔来观测日食。</li>
+					<li>在生活中，阳光会穿过树叶之间的孔隙在地面形成斑驳的图案。在日食发生之时，如果你周围有许多大树，树荫的缝隙就会成为天然的小孔，树荫底下的小亮点都是太阳的小孔成像。</li>
+					<li>可以利用小型望远镜将日像投影在地面上，通过观测投影来观看日食，并描图记录，但要注意<strong>不能用望远镜直接观测日食</strong>。</li>
+				</ul>
+			</div>
+
+			<div class="lj">
+			<h3 align="center"><a href="https://nadc.china-vo.org/" target="_blank">国家天文科学数据中心</a></h3>
+			</div>
+			<div id="fh">
+			<h3><a href="" alt="#top"><img src="images5/返回顶部.png" width="60" height="60"></a></h3>
+			</div>
+		</section>
+	
+
+		<footer>
+			<p><hr>作者：《太阳的“阴晴圆缺”》团队<br>
+				版权所有&copy;2022,Eclipse Micro-lessons<br>
+			素材来源：爱图网、哔哩哔哩、国家天文科技中心<br>
+		</p>
+		</footer>
+	</div>
+
+	</body>
+</html>
+</html>
